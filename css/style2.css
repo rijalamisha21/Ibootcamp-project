@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    background-color: #E5E5E5;
+}
+
+.nav-bar a{
+    font-size: 15px;
+}
+
+.mobile-container{
+    
+    width: 414px;
+    height: 896px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* border: 1px solid red; */
+    margin-top: 4%;
+    margin-left: 20%;
+    transform: translate(50%);
+    
+}
+.image-container{
+    width: 414px;
+    height: 503px;
+    overflow: hidden;
+}
+
+
+#images{
+    display: inline-flex;
+    
+}
+
+#images img{
+    width: 414px; 
+    height: 503px;
+    /* transition: all 0.15s ease; */
+}
+
+.indicators{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.indicators span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #b6b2b2;
+    cursor: pointer;
+}
+
+
+.second-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    
+    /* border: 1px solid red; */
+}
+
+.second-container p{
+    font-size: 25px;
+    line-height: 29.98px;
+    letter-spacing: 1px;
+    color: #000000;
+    /* color: #0000; */
+
+}
+.third-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.text h6{
+    font-size: 12px;
+    
+    line-height: 16.37px;
+    letter-spacing: 1px;
+    color: #171717;
+}
+.hyphen{
+    width: 12px;
+    height: 2px;
+    background: #9f9e9e;
+    
+}
+.fouth-container{
+    margin: 15px;
+
+}
+.fouth-container p{
+    text-align: justify;
+    font-size: 17px;
+    line-height: 27.12px;
+    color: #575757;
+}
+
+.fifth-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    margin-bottom: 25px;
+    border: 1px ;
+    border-color: #A1A1A1;
+}
+button{
+    width: 177px;
+    height: 55px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+.btn1 {
+    
+    
+    border: 1px solid #A1A1A1;
+}
+
+
+button p{
+    font-size: 11px;
+    line-height: 15px;
+    color: #171717;
+}
+.btn2 p{
+    color: white;
+}
+.btn2{
+     background-color: black;
+     border-radius: 2px;
+ }
+
+ .btn1:hover{
+     background-color: #E5E5E5;
+ }
+ 
+ .btn2:hover{
+     background-color:#171717;
+ }
+ 
+
+
+
+
+

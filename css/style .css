@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    font: weight 700px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+    
+    
+}
+body{
+    
+    background-color: #E5E5E5;
+}
+.mobile-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 415px;
+    height: 786px;
+    top: 10%;
+    left: 20%;
+    background-color: #ffff;
+    /* border: 1px solid red; */
+    transform: translate(50%);
+    
+
+}
+
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    margin: 10px;
+    margin-left: 20px;
+    /* border: 1px solid red; */
+}
+.hamburger{
+    margin-left: -31px;
+}
+.bag-icon img{
+    width: 6.34px;
+    height: 7.13px;
+}
+.top-heading{
+    margin-left: 52px;
+}
+h5{
+ 
+    font-size: 17px;
+    line-height: 21.82px;
+    
+    
+    
+}
+h6{
+    font-size: 13px;
+    line-height: 17.73px;
+}
+
+.first-ham, .second-ham, .third-ham{
+    width: 16px;
+    height: 2px;
+    background: #000000;
+    margin: 3px;
+}
+.second-ham{
+    width: 10px;
+}
+
+.second-container{
+    width: 366px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: 10px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+
+.third-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: 20px;
+   
+   
+}
+.third-container:hover{
+    border: rgba(131, 190, 245, 0.801);
+}
+.third-container img{
+
+    width: 84.58px;
+    height: 83.53px;
+    border-radius: 50%
+}
+
+.first, .second, .third, .fourth{
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    line-height: 12.82px;
+    
+   
+    
+}
+
+
+
+.first{
+    
+    top: 45px;
+    left: 28px;
+    
+    
+   
+}
+
+.second{
+
+    top: 45px;
+    left: 125px;
+
+}
+
+.third{
+    top: 45px;
+    right: 109px;
+}
+
+.fourth{
+    top: 44px;
+    right: 23px;
+}
+
+
+.fourth-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    margin-right: 24px;
+}
+.fifth-container , img{
+    text-align: center;  
+}
+.fifth-container{
+    margin: 10px;
+    position: relative;
+}
+
+.fifth-container h2{
+    position: absolute;
+    color: #ffff;
+    text-align: justify;
+    bottom: 20px;
+    left: 35px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
