@@ -1,94 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style2.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet"> 
-</head>
-<body>
-    <div class="nav-bar">
-        <a href="index.html"> <h2>Back Page </h2></a>
-    </div>
-    <div class="mobile-container">
-
-    <div class="image-container">
-
-        <div id="images">
-        <img src="./image/3.jpeg" alt="img1">
-        <img src="./image/girl1.jpg"  alt="img2">
-        <img src="./image/jacket girl.jpg" alt="img3">
-    </div>
-    <div class="indicators">
-       <span id="btn1"></span>
-       <span id="btn2"></span>
-       <span id="btn3"></span>
-    </div>
-       
-
-    </div>
+    <link rel="stylesheet" href="css/style2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Red+Hat+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
     
-    <div class="second-container">
-        <p>Oversized Denim <br>Jacket</p>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <a href="index.html"> <h2>Back Page</h2></a>
+    </div>
+    <div class="mobile-container">
+      <div class="image-container">
+        <div id="images">
+          <img src="./image/3.jpeg" alt="img1" />
+          <img src="./image/girl1.jpg" alt="img2" />
+          <img src="./image/jacket girl.jpg" alt="img3" />
+        </div>
+        <div class="indicators">
+          <span id="btn1" class="active"></span>
+          <span id="btn2"></span>
+          <span id="btn3"></span>
+        </div>
+      </div>
+
+      <div class="second-container">
+        <p>Oversized Denim <br />Jacket</p>
         <p>$67.90</p>
+      </div>
 
-    </div>
-
-
-    <div class="third-container">
-
+      <div class="third-container">
         <div class="text">
-            <h6>DESCRIPTION
-            </h6> 
-            </div>
+          <h6>DESCRIPTION</h6>
+        </div>
         <div class="hyphen"></div>
+      </div>
 
+      <div class="fouth-container">
+        <p>
+          Straight cut shirt jacket in sturdy, washed denim. Features a pointed
+          collar and buttons down the front. Dropped shoulders and long sleeves
+          with button cuffs. Detachable tie belt at the waist and a rounded hem.
+        </p>
+      </div>
+
+      <div class="fifth-container">
+        <button class="btn1"><p>🤍 WHISHLIST</p></button>
+        <button class="btn2"><p>💼 ADD TO BAG</p></button>
+      </div>
     </div>
 
-    <div class="fouth-container">
-        <p>Straight cut shirt jacket in sturdy, washed denim. Features a pointed collar and buttons down the front. Dropped shoulders and long sleeves with button cuffs. Detachable tie belt at the waist and a rounded hem.</p>
-    </div>
+    <script src="./index2.js"></script>
 
-
-    <div class="fifth-container">
-
-        <button class="btn1"> <p> 🤍  WHISHLIST </p> </button>
-        <button class="btn2"> <p> 💼  ADD TO BAG </p></button>
-    </div>
-
-
-
-
-</div>
-
-<script>
-
-
-
-
-    var slide= document.getElementById(" images");
-    var btn1= document.getElementById(" btn1");
-    var btn2= document.getElementById(" btn2");
-    var btn3= document.getElementById(" btn3");
-
-    btn1.onclick = function(){
-        slide.style.transform = " translateX(0px)";
-    }
-
-    btn2.onclick = function(){
-        slide.style.transform = " translateX(-100%)";
-    }
-
-    btn3.onclick = function(){
-        slide.style.transform = " translateX(-200%)";
-    }
-
-
-</script>
-
-
-</body>
+  </body>
 </html>
