@@ -33,8 +33,8 @@ body {
 .hamburger {
   margin-left: -31px;
 }
-.bag-icon img {
-  margin-right: -18px;
+.bag-icon {
+    margin-right:-20px ;
 }
 .top-heading {
   margin-left: 6px;
