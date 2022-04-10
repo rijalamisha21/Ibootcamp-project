@@ -6,20 +6,15 @@
   letter-spacing: 2px;
   font-weight: bold;
 }
-body {
-  background-color: #e5e5e5;
+
+.nav-bar{
+  font-size: 16px;
 }
+
 .mobile-container {
-  position: absolute;
   display: flex;
   flex-direction: column;
-  width: 415px;
-  height: 786px;
-  top: 10%;
-  left: 20%;
   background-color: #ffff;
-  /* border: 1px solid red; */
-  transform: translate(50%);
 }
 
 .top-container {
@@ -81,6 +76,7 @@ h6 {
   border: rgba(131, 190, 245, 0.801);
 }
 .third-container img {
+  object-fit: cover;
   width: 84.58px;
   height: 83.53px;
   border-radius: 50%;
@@ -140,3 +136,23 @@ img {
   bottom: 20px;
   left: 35px;
 }
+
+@media screen and (min-width: 415px) {
+
+  body {
+
+  background-color: #e5e5e5;
+
+}
+
+ .mobile-container{
+  width: 414px;
+  height: 896px;
+  margin: auto;
+ }
+
+  
+  
+}
+
+
